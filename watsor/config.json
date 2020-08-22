@@ -6,6 +6,7 @@
   "url": "https://github.com/asmirnou/watsor-haasio-addons/watsor",
   "startup": "services",
   "boot": "auto",
+  "user": "root",
   "full_access": "true",
   "ingress": "true",
   "ports": {
