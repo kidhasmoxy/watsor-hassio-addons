@@ -10,6 +10,11 @@
   "full_access": "true",
   "ingress": "true",
   "ingress_port": 8080,
+  "host_dbus": "true",
+  "usb": "true",
+  "video": "true",
+  "devicetree": "true",
+  "kernel_modules": "true",
   "ports": {
     "8080/tcp": 8080
   },
@@ -22,9 +27,5 @@
   "options": {
     "CONFIG_FILE": "/config/watsor/config.yaml"
   },
-  "devices": [
-    "/dev/bus/usb:/dev/bus/usb:rwm",
-    "/dev/dri:/dev/dri:rwm"
-  ],
   "arch": ["amd64"]
 }
